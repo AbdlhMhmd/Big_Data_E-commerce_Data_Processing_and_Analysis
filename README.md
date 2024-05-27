@@ -10,7 +10,7 @@ This project demonstrates a complete pipeline for processing and analyzing e-com
 
 ## Project Overview
 
-### Batch Big Data Processing
+### FIRST STEP: Batch Big Data Processing
 
 We utilized a virtual machine (VM) that contains the following Big Data tools:
 - **Hadoop**: For storing CSV files.
@@ -27,7 +27,7 @@ We utilized a virtual machine (VM) that contains the following Big Data tools:
    - **Spark Submit**: Run pre-saved Python scripts using the `spark-submit` option.
    - **Jupyter**: Use Jupyter notebooks to run Spark code for testing and visualizing data.
 
-### Streaming Big Data Processing
+### SECOND STEP: Streaming Big Data Processing
 
 We extended our setup to include real-time data processing tools:
 - **Kafka**: For real-time data ingestion.
