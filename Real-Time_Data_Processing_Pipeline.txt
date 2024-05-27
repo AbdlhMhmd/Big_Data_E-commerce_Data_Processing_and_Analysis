@@ -1,0 +1,5 @@
+start-all.
+./zookeeper-server-start.sh ./../config/zookeeper.properties
+./kafka-server-start.sh ./../config/server.properties
+python3 data_generation.py 
+./spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1 spark-processing.py
